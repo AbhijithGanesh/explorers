@@ -1,0 +1,52 @@
+{
+  "name": "rap-god-api",
+  "version": "0.0.1",
+  "authors": [
+    "Abhijith Ganesh",
+    "Abhishek Choudhary"
+  ],
+  "main": "./src/index.js",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon ./build/index.js",
+    "transpile": "babel ./src -d build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/runtime-corejs2": "^7.17.2",
+    "cors": "^2.8.5",
+    "eslint": "^8.10.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^27.5.1",
+    "express-cassandra": "^2.7.0",
+    "jest": "^27.5.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dokc/rap-god-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dokc/rap-god-api/issues"
+  },
+  "homepage": "https://github.com/dokc/rap-god-api#readme"
+}

@@ -1,0 +1,38 @@
+* {
+    background-color: #010001;
+    box-sizing : border-box;
+    margin : 0;
+    padding : 0;
+  }
+  ul{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding : 10px 20% 10px 20%; 
+    flex-wrap: wrap;
+  }
+  .exptext{
+    font-weight : bold;
+    color : grey;
+    font-size : 20px;
+  }
+  li{
+    padding : 20px 10% 5% 10%;
+  }
+  .whitetext{
+    color : white;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-wrap: wrap;
+    margin : auto;
+    width : auto;
+  }
+  .centred{
+    justify-content: center;
+    margin:auto;
+    display:block;
+  }
+  .exptext:hover{
+    color:white;
+  }
